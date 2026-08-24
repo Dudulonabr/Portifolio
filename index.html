@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio de Eduardo Moreira Monteiro Lona — Desenvolvedor Full Stack em formação, com base sólida em infraestrutura, hardware e segurança da informação. São Paulo, SP.">
+  <meta name="keywords" content="Eduardo Lona, desenvolvedor, full stack, TI, portfólio, São Paulo">
+  <meta name="author" content="Eduardo Moreira Monteiro Lona">
+  <meta property="og:title" content="Eduardo Lona | Portfólio">
+  <meta property="og:description" content="Desenvolvedor em evolução. Hardware, redes, código e muito mais.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#06060b">
+  <title>Eduardo Lona · Portfólio</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Preloader -->
+  <div id="preloader" aria-hidden="true">
+    <div class="preloader-inner">
+      <div class="preloader-logo">&lt;EL /&gt;</div>
+      <div class="preloader-bar"><span></span></div>
+      <p class="preloader-text">Inicializando sistemas...</p>
+    </div>
+  </div>
+
+  <!-- Cursor glow -->
+  <div id="cursor-glow" aria-hidden="true"></div>
+
+  <!-- Scroll progress -->
+  <div id="scroll-progress" aria-hidden="true"></div>
+
+  <!-- Navigation -->
+  <header class="header" id="header">
+    <nav class="nav container" aria-label="Navegação principal">
+      <a href="#hero" class="nav-logo" aria-label="Ir para início">
+        <span class="logo-bracket">&lt;</span>EL<span class="logo-bracket">/&gt;</span>
+      </a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#sobre" data-nav>Sobre</a></li>
+        <li><a href="#jornada" data-nav>Jornada</a></li>
+        <li><a href="#habilidades" data-nav>Skills</a></li>
+        <li><a href="#projetos" data-nav>Projetos</a></li>
+        <li><a href="#experiencia" data-nav>Experiência</a></li>
+        <li><a href="#formacao" data-nav>Formação</a></li>
+        <li><a href="#contato" data-nav class="nav-cta">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <canvas id="hero-canvas" aria-hidden="true"></canvas>
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="container hero-content">
+        <div class="hero-badge reveal">
+          <span class="pulse-dot"></span>
+          Disponível para estágio &amp; oportunidades júnior
+        </div>
+        <p class="hero-greeting reveal">Olá, eu sou</p>
+        <h1 class="hero-name reveal">
+          Eduardo<br>
+          <span class="gradient-text">Moreira Monteiro Lona</span>
+        </h1>
+        <div class="hero-roles reveal">
+          <span id="typed-text"></span><span class="typed-cursor">|</span>
+        </div>
+        <p class="hero-desc reveal">
+          Estudante de tecnologia com <strong>3+ anos de experiência prática</strong> em suporte e infraestrutura,
+          evoluindo para <strong>desenvolvimento full stack</strong> e <strong>segurança da informação</strong>.
+          Transformo problemas complexos em soluções claras — do hardware ao código.
+        </p>
+        <div class="hero-actions reveal">
+          <a href="#projetos" class="btn btn-primary">
+            <span>Ver projetos</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="#contato" class="btn btn-ghost">Falar comigo</a>
+          <a href="https://github.com/Dudulonabr" target="_blank" rel="noopener" class="btn btn-icon" aria-label="GitHub">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A8.995 8.995 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          </a>
+        </div>
+        <div class="hero-stats reveal">
+          <div class="stat">
+            <span class="stat-number" data-count="3">0</span><span class="stat-suffix">+</span>
+            <span class="stat-label">Anos em TI</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-number" data-count="4">0</span>
+            <span class="stat-label">Formações</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-number" data-count="5">0</span><span class="stat-suffix">+</span>
+            <span class="stat-label">Certificações</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-number" data-count="2">0</span>
+            <span class="stat-label">Idiomas</span>
+          </div>
+        </div>
+      </div>
+      <a href="#sobre" class="hero-scroll" aria-label="Rolar para baixo">
+        <span>Explore</span>
+        <div class="scroll-indicator"></div>
+      </a>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="section sobre" id="sobre">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">01 · Sobre mim</span>
+          <h2 class="section-title">Quem é o <span class="gradient-text">Eduardo Lona</span>?</h2>
+        </div>
+        <div class="sobre-grid">
+          <div class="sobre-visual reveal">
+            <div class="profile-card">
+              <div class="profile-avatar-wrap">
+                <div class="profile-avatar">
+                  <img src="assets/profile.png" alt="Eduardo Moreira Monteiro Lona" width="160" height="160" loading="eager">
+                </div>
+              </div>
+              <div class="profile-info">
+                <h3>Eduardo Lona</h3>
+                <p>Dev em evolução · São Paulo, SP</p>
+              </div>
+              <div class="profile-tags">
+                <span>🎯 Foco</span>
+                <span>🔧 Hands-on</span>
+                <span>📈 Crescimento</span>
+              </div>
+            </div>
+            <div class="terminal" id="terminal">
+              <div class="terminal-header">
+                <div class="terminal-dots">
+                  <span class="dot red"></span>
+                  <span class="dot yellow"></span>
+                  <span class="dot green"></span>
+                </div>
+                <span class="terminal-title">dudu@portfolio ~ bash</span>
+              </div>
+              <div class="terminal-body">
+                <p class="terminal-row"><span class="t-prompt">$</span> whoami</p>
+                <p class="terminal-row t-out">Eduardo Moreira Monteiro Lona</p>
+                <p class="terminal-row"><span class="t-prompt">$</span> cat objetivo.txt</p>
+                <p class="terminal-row t-out">Estágio ou posição júnior em Dev / TI</p>
+                <p class="terminal-row"><span class="t-prompt">$</span> ls skills/</p>
+                <p class="terminal-row t-out t-tags">
+                  <span>html</span><span>css</span><span>java</span><span>python</span>
+                  <span>git</span><span>hardware</span><span>redes</span>
+                </p>
+                <p class="terminal-row"><span class="t-prompt">$</span> echo $status</p>
+                <p class="terminal-row t-out t-ok">✓ Disponível para oportunidades</p>
+                <p class="terminal-row terminal-cursor-line"><span class="t-prompt">$</span> <span class="t-cursor">▋</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="sobre-text reveal">
+            <p class="lead">
+              Sou estudante da área de Tecnologia da Informação com uma trajetória que começou
+              <strong>muito antes da faculdade</strong> — nos bastidores de computadores, redes e suporte real a pessoas reais.
+            </p>
+            <p>
+              Formado tecnicamente pelo <strong>SENAC</strong>, hoje curso
+              <strong>Análise e Desenvolvimento de Sistemas (UNIP)</strong> e
+              <strong>Engenharia de Software (Cruzeiro do Sul)</strong> em paralelo.
+              Essa combinação me dá visão prática de infraestrutura <em>e</em> visão estruturada de engenharia de software.
+            </p>
+            <p>
+              Desde 2023 atuo como técnico de informática freelancer: montagem, diagnóstico, redes, SO e atendimento.
+              Paralelamente, desenvolvo projetos web — como o site <strong>"Futuro das Cidades"</strong> — aplicando HTML semântico,
+              CSS responsivo e foco total em experiência do usuário.
+            </p>
+            <p>
+              Meu diferencial? <strong>Resolvo problemas de ponta a ponta.</strong> Seja um PC que não liga, uma rede instável
+              ou uma interface que precisa ser intuitiva — eu mergulho, diagnostico e entrego.
+              Busco evoluir para full stack e, no futuro, atuar também com segurança da informação.
+            </p>
+            <div class="sobre-highlights">
+              <div class="highlight-item">
+                <div class="highlight-icon">🧠</div>
+                <div>
+                  <strong>Pensamento analítico</strong>
+                  <span>Diagnóstico preciso antes de qualquer ação</span>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <div class="highlight-icon">🚀</div>
+                <div>
+                  <strong>Autodidatismo</strong>
+                  <span>Cursos online, projetos e prática constante</span>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <div class="highlight-icon">🤝</div>
+                <div>
+                  <strong>Comunicação clara</strong>
+                  <span>Traduzo o técnico para qualquer pessoa entender</span>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <div class="highlight-icon">⚡</div>
+                <div>
+                  <strong>Proatividade</strong>
+                  <span>Antecipo problemas e busco melhorias contínuas</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- JORNADA / TIMELINE -->
+    <section class="section jornada" id="jornada">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">02 · Minha jornada</span>
+          <h2 class="section-title">Da bancada ao <span class="gradient-text">código</span></h2>
+          <p class="section-subtitle">Uma linha do tempo de evolução — cada passo construiu quem eu sou hoje.</p>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2017 – 2022</span>
+              <h3>Ensino Fundamental · Mackenzie</h3>
+              <p>Colégio Presbiteriano Mackenzie — base sólida em comunicação, disciplina e pensamento crítico.</p>
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2023</span>
+              <h3>Início no mercado de TI</h3>
+              <p>Começo como técnico de informática freelancer — montagem, manutenção e suporte a clientes reais.</p>
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2023 – 2025</span>
+              <h3>Técnico em Informática · SENAC</h3>
+              <p>Formação completa em hardware, redes, SO, segurança, lógica de programação e desenvolvimento web.</p>
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2024</span>
+              <h3>Projeto "Futuro das Cidades"</h3>
+              <p>Primeiro projeto web publicado no GitHub Pages — HTML5, CSS3, design responsivo e UX focada.</p>
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2025</span>
+              <h3>Certificações &amp; aprofundamento</h3>
+              <p>Cisco, Front-End Danki Code, Lógica de Programação, Engenharia de Software (Udemy) e Game Design (SENAI).</p>
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="timeline-marker active"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2026 →</span>
+              <h3>Faculdade em dobro + Dev</h3>
+              <p>ADS na UNIP e Engenharia de Software na Cruzeiro do Sul — aprofundando Java, Python, bancos de dados e arquitetura.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section class="section habilidades" id="habilidades">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">03 · Habilidades</span>
+          <h2 class="section-title">Stack &amp; <span class="gradient-text">competências</span></h2>
+          <p class="section-subtitle">Do silício ao software — tudo que eu domino ou estou dominando agora.</p>
+        </div>
+
+        <div class="skills-bento reveal">
+          <!-- Dev -->
+          <div class="bento-card bento-dev" data-category="dev">
+            <div class="bento-header">
+              <span class="bento-icon-wrap dev">💻</span>
+              <div>
+                <h3>Desenvolvimento</h3>
+                <p class="bento-sub">Front-end, lógica e versionamento</p>
+              </div>
+            </div>
+            <div class="skill-list skill-grid-2">
+              <div class="skill-item" data-level="95">
+                <div class="skill-info"><span>HTML5</span><span class="skill-pct">95%</span></div>
+                <div class="skill-bar"><div class="skill-fill"></div></div>
+              </div>
+              <div class="skill-item" data-level="90">
+                <div class="skill-info"><span>CSS3</span><span class="skill-pct">90%</span></div>
+                <div class="skill-bar"><div class="skill-fill"></div></div>
+              </div>
+              <div class="skill-item" data-level="85">
+                <div class="skill-info"><span>Lógica de Programação</span><span class="skill-pct">85%</span></div>
+                <div class="skill-bar"><div class="skill-fill"></div></div>
+              </div>
+              <div class="skill-item" data-level="60">
+                <div class="skill-info"><span>Java</span><span class="skill-pct">60%</span></div>
+                <div class="skill-bar"><div class="skill-fill"></div></div>
+              </div>
+              <div class="skill-item" data-level="55">
+                <div class="skill-info"><span>Python</span><span class="skill-pct">55%</span></div>
+                <div class="skill-bar"><div class="skill-fill"></div></div>
+              </div>
+              <div class="skill-item" data-level="65">
+                <div class="skill-info"><span>Git &amp; GitHub</span><span class="skill-pct">65%</span></div>
+                <div class="skill-bar"><div class="skill-fill"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Infra -->
+          <div class="bento-card bento-side" data-category="infra">
+            <div class="bento-header">
+              <span class="bento-icon-wrap infra">🔧</span>
+              <div>
+                <h3>Infra &amp; Hardware</h3>
+                <p class="bento-sub">Do físico ao funcional</p>
+              </div>
+            </div>
+            <ul class="bento-tags bento-tags-grid">
+              <li><span class="tag-dot"></span>Manutenção de PCs</li>
+              <li><span class="tag-dot"></span>Diagnóstico HW/SW</li>
+              <li><span class="tag-dot"></span>Instalação de SO</li>
+              <li><span class="tag-dot"></span>Redes locais</li>
+              <li><span class="tag-dot"></span>Drivers &amp; periféricos</li>
+              <li><span class="tag-dot"></span>Upgrades de performance</li>
+            </ul>
+          </div>
+
+          <!-- Bottom row: 3 equal cards -->
+          <div class="bento-card bento-third" data-category="tools">
+            <div class="bento-header">
+              <span class="bento-icon-wrap tools">🛠️</span>
+              <h3>Ferramentas</h3>
+            </div>
+            <ul class="bento-tags bento-tags-stack">
+              <li><span class="tag-dot"></span>Excel avançado</li>
+              <li><span class="tag-dot"></span>Word &amp; PowerPoint</li>
+              <li><span class="tag-dot"></span>IA para produtividade</li>
+              <li><span class="tag-dot"></span>Windows &amp; Linux</li>
+            </ul>
+          </div>
+
+          <div class="bento-card bento-third" data-category="lang">
+            <div class="bento-header">
+              <span class="bento-icon-wrap lang">🌐</span>
+              <h3>Idiomas</h3>
+            </div>
+            <div class="lang-items lang-cards">
+              <div class="lang-card">
+                <span class="lang-flag">🇧🇷</span>
+                <div>
+                  <strong>Português</strong>
+                  <span>Nativo · C2</span>
+                </div>
+                <div class="lang-bar"><div class="lang-fill" style="width:100%"></div></div>
+              </div>
+              <div class="lang-card">
+                <span class="lang-flag">🇺🇸</span>
+                <div>
+                  <strong>Inglês</strong>
+                  <span>Pré-intermediário · B1</span>
+                </div>
+                <div class="lang-bar"><div class="lang-fill" style="width:55%"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bento-card bento-third" data-category="focus">
+            <div class="bento-header">
+              <span class="bento-icon-wrap focus">🎯</span>
+              <h3>Foco atual</h3>
+            </div>
+            <div class="focus-grid">
+              <div class="focus-item">
+                <span class="focus-num">01</span>
+                <span class="focus-label">Full Stack</span>
+              </div>
+              <div class="focus-item">
+                <span class="focus-num">02</span>
+                <span class="focus-label">APIs &amp; BD</span>
+              </div>
+              <div class="focus-item">
+                <span class="focus-num">03</span>
+                <span class="focus-label">Segurança</span>
+              </div>
+              <div class="focus-item">
+                <span class="focus-num">04</span>
+                <span class="focus-label">Open Source</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Soft skills full width -->
+          <div class="bento-card bento-soft" data-category="soft">
+            <div class="bento-header">
+              <span class="bento-icon-wrap soft">🌟</span>
+              <div>
+                <h3>Competências comportamentais</h3>
+                <p class="bento-sub">Clique para ver como cada uma se aplica ao meu perfil</p>
+              </div>
+            </div>
+            <div class="soft-grid">
+              <button class="soft-chip" data-soft="foco">Foco &amp; disciplina</button>
+              <button class="soft-chip" data-soft="analitico">Raciocínio analítico</button>
+              <button class="soft-chip" data-soft="comunicacao">Comunicação clara</button>
+              <button class="soft-chip" data-soft="organizacao">Organização</button>
+              <button class="soft-chip" data-soft="autodidata">Autodidatismo</button>
+              <button class="soft-chip" data-soft="empatia">Empatia</button>
+              <button class="soft-chip" data-soft="proatividade">Proatividade</button>
+              <button class="soft-chip" data-soft="equipe">Trabalho em equipe</button>
+            </div>
+            <div class="soft-panel" id="soft-panel">
+              <span class="soft-panel-label">Detalhe</span>
+              <p class="soft-desc" id="soft-desc">Selecione uma competência acima para explorar como ela guia minhas entregas no dia a dia.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section class="section projetos" id="projetos">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">04 · Projetos</span>
+          <h2 class="section-title">O que eu <span class="gradient-text">construí</span></h2>
+          <p class="section-subtitle">Projetos reais, com propósito e código publicado.</p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card reveal featured">
+            <div class="project-visual">
+              <img src="assets/project-futuro-cidades.png" alt="Preview do site Futuro das Cidades" class="project-thumb" loading="lazy">
+              <div class="project-overlay">
+                <a href="https://dudulonabr.github.io/Futuro-das-Cidades/" target="_blank" rel="noopener" class="project-link">Ver ao vivo →</a>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-meta">
+                <span class="project-tag">Projeto escolar · SENAC</span>
+                <span class="project-status live">● Online</span>
+              </div>
+              <h3>Futuro das Cidades</h3>
+              <p>
+                Portal completo sobre smart cities, sensores urbanos, prédios sustentáveis e mobilidade elétrica.
+                Site com múltiplas seções, simulador interativo, blog e design responsivo — publicado no GitHub Pages.
+              </p>
+              <div class="project-stack">
+                <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>GitHub Pages</span><span>UX/UI</span>
+              </div>
+              <ul class="project-features">
+                <li>Seções temáticas: cidades inteligentes, IoT, sustentabilidade</li>
+                <li>Simulador de economia em mobilidade elétrica</li>
+                <li>Layout responsivo e navegação fluida</li>
+                <li>Conteúdo rico com dados e exemplos reais</li>
+              </ul>
+              <div class="project-actions">
+                <a href="https://dudulonabr.github.io/Futuro-das-Cidades/" target="_blank" rel="noopener" class="btn btn-sm btn-primary">Demo</a>
+                <a href="https://github.com/Dudulonabr/Futuro-das-Cidades" target="_blank" rel="noopener" class="btn btn-sm btn-ghost">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-visual">
+              <img src="assets/project-portfolio.png" alt="Preview deste portfólio" class="project-thumb" loading="lazy">
+            </div>
+            <div class="project-info">
+              <div class="project-meta">
+                <span class="project-tag">Portfólio pessoal</span>
+                <span class="project-status live">● Você está aqui</span>
+              </div>
+              <h3>Este Portfólio</h3>
+              <p>
+                O site que você está vendo agora — design moderno, animações fluidas, terminal interativo,
+                timeline, bento grid de skills e experiência imersiva.
+              </p>
+              <div class="project-stack">
+                <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Canvas</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/Dudulonabr" target="_blank" rel="noopener" class="btn btn-sm btn-ghost">Código no GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal coming-soon">
+            <div class="project-visual">
+              <img src="assets/project-fullstack.png" alt="Preview do próximo projeto Full Stack" class="project-thumb" loading="lazy">
+            </div>
+            <div class="project-info">
+              <div class="project-meta">
+                <span class="project-tag">Próximo projeto</span>
+                <span class="project-status soon">◐ Em desenvolvimento</span>
+              </div>
+              <h3>Projeto Full Stack</h3>
+              <p>
+                Aplicando Java/Python com banco de dados, API REST e front-end moderno.
+                Acompanhe no GitHub para ver a evolução em tempo real.
+              </p>
+              <div class="project-stack">
+                <span>Java</span><span>Python</span><span>SQL</span><span>API</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIÊNCIA -->
+    <section class="section experiencia" id="experiencia">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">05 · Experiência</span>
+          <h2 class="section-title">Onde eu <span class="gradient-text">atuei</span></h2>
+        </div>
+        <div class="exp-card reveal">
+          <div class="exp-header">
+            <div class="exp-icon">🔧</div>
+            <div>
+              <h3>Técnico de Informática / Suporte de TI</h3>
+              <p class="exp-company">Freelancer · São Paulo, SP</p>
+            </div>
+            <span class="exp-period">Jan 2023 — Atual · 3+ anos</span>
+          </div>
+          <div class="exp-body">
+            <div class="exp-columns">
+              <div>
+                <h4>Responsabilidades</h4>
+                <ul>
+                  <li>Montagem, manutenção preventiva e corretiva de computadores</li>
+                  <li>Diagnóstico e resolução de problemas de hardware e software</li>
+                  <li>Instalação, configuração e atualização de Windows e Linux</li>
+                  <li>Configuração de programas, drivers e periféricos</li>
+                  <li>Atendimento e suporte técnico personalizado a usuários</li>
+                  <li>Configuração de redes locais e compartilhamento de recursos</li>
+                  <li>Upgrades de componentes para performance e estabilidade</li>
+                </ul>
+              </div>
+              <div>
+                <h4>Resultados</h4>
+                <ul class="results">
+                  <li><span class="result-icon">✓</span> Alto índice de resolução de problemas no primeiro atendimento</li>
+                  <li><span class="result-icon">✓</span> Redução de falhas recorrentes via manutenção preventiva</li>
+                  <li><span class="result-icon">✓</span> Melhoria significativa de desempenho via upgrades e otimizações</li>
+                  <li><span class="result-icon">✓</span> Comunicação clara — traduzindo termos técnicos para leigos</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FORMAÇÃO & CERTIFICAÇÕES -->
+    <section class="section formacao" id="formacao">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">06 · Formação</span>
+          <h2 class="section-title">Estudos &amp; <span class="gradient-text">certificações</span></h2>
+        </div>
+
+        <div class="formacao-grid">
+          <div class="edu-card reveal cursando">
+            <div class="edu-status">Cursando</div>
+            <h3>Análise e Desenvolvimento de Sistemas</h3>
+            <p class="edu-inst">UNIP · Tatuapé, São Paulo</p>
+            <span class="edu-period">2026 — 2028</span>
+            <p class="edu-desc">Desenvolvimento de software, bancos de dados, engenharia de requisitos, metodologias ágeis e estrutura de dados.</p>
+          </div>
+          <div class="edu-card reveal cursando">
+            <div class="edu-status">Cursando</div>
+            <h3>Engenharia de Software</h3>
+            <p class="edu-inst">Universidade Cruzeiro do Sul</p>
+            <span class="edu-period">2026 — 2029</span>
+            <p class="edu-desc">Arquitetura de software, qualidade, modelagem de sistemas e integração entre software e infraestrutura.</p>
+          </div>
+          <div class="edu-card reveal concluido">
+            <div class="edu-status">Concluído</div>
+            <h3>Técnico em Informática</h3>
+            <p class="edu-inst">SENAC · Aclimação, São Paulo</p>
+            <span class="edu-period">2023 — 2025</span>
+            <p class="edu-desc">Hardware, redes, SO, segurança da informação, lógica de programação, HTML, CSS, Java e Python.</p>
+          </div>
+          <div class="edu-card reveal concluido">
+            <div class="edu-status">Concluído</div>
+            <h3>Ensino Fundamental</h3>
+            <p class="edu-inst">Colégio Presbiteriano Mackenzie</p>
+            <span class="edu-period">Fev 2017 — Dez 2022</span>
+            <p class="edu-desc">Formação sólida com foco em comunicação, disciplina acadêmica e desenvolvimento de competências interpessoais.</p>
+          </div>
+        </div>
+
+        <h3 class="certs-title reveal">Certificações</h3>
+        <div class="certs-grid reveal">
+          <div class="cert-card">
+            <span class="cert-icon">🌐</span>
+            <h4>Certificação Cisco</h4>
+            <p>Fundamentos de redes e infraestrutura</p>
+          </div>
+          <div class="cert-card">
+            <span class="cert-icon">🎨</span>
+            <h4>Front-End Completo 2.0</h4>
+            <p>Danki Code · 9 horas</p>
+          </div>
+          <div class="cert-card">
+            <span class="cert-icon">🧩</span>
+            <h4>Lógica de Programação</h4>
+            <p>Danki Code</p>
+          </div>
+          <div class="cert-card">
+            <span class="cert-icon">⚙️</span>
+            <h4>Engenharia de Software</h4>
+            <p>Udemy</p>
+          </div>
+          <div class="cert-card">
+            <span class="cert-icon">🎮</span>
+            <h4>Criação de Jogos Digitais</h4>
+            <p>SENAI</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="section contato" id="contato">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">07 · Contato</span>
+          <h2 class="section-title">Vamos <span class="gradient-text">conversar</span>?</h2>
+          <p class="section-subtitle">Estou aberto a estágios, vagas júnior e projetos. Me chama!</p>
+        </div>
+
+        <div class="contato-grid">
+          <div class="contato-info reveal">
+            <div class="contact-card">
+              <a href="https://wa.me/5511976533845?text=Ol%C3%A1%20Eduardo!%20Vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar." target="_blank" rel="noopener" class="contact-item whatsapp">
+                <span class="contact-icon">💬</span>
+                <div>
+                  <strong>WhatsApp</strong>
+                  <span>(11) 97653-3845</span>
+                </div>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+              <a href="mailto:dudulona07@gmail.com" class="contact-item">
+                <span class="contact-icon">✉️</span>
+                <div>
+                  <strong>E-mail</strong>
+                  <span>dudulona07@gmail.com</span>
+                </div>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+              <a href="https://www.linkedin.com/in/eduardo-moreira-monteiro-lona" target="_blank" rel="noopener" class="contact-item">
+                <span class="contact-icon">💼</span>
+                <div>
+                  <strong>LinkedIn</strong>
+                  <span>eduardo-moreira-monteiro-lona</span>
+                </div>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+              <a href="assets/curriculo-eduardo-lona.pdf" target="_blank" rel="noopener" class="contact-item">
+                <span class="contact-icon">📄</span>
+                <div>
+                  <strong>Currículo PDF</strong>
+                  <span>Baixar ou visualizar</span>
+                </div>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+              <a href="https://github.com/Dudulonabr" target="_blank" rel="noopener" class="contact-item">
+                <span class="contact-icon">🐙</span>
+                <div>
+                  <strong>GitHub</strong>
+                  <span>@Dudulonabr</span>
+                </div>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+            <div class="contato-location">
+              <span>📍</span> São Paulo, SP · Brasil
+            </div>
+          </div>
+
+          <form class="contact-form reveal" id="contact-form">
+            <div class="form-group">
+              <label for="name">Nome</label>
+              <input type="text" id="name" name="name" required placeholder="Seu nome">
+            </div>
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" required placeholder="seu@email.com">
+            </div>
+            <div class="form-group">
+              <label for="message">Mensagem</label>
+              <textarea id="message" name="message" rows="5" required placeholder="Conte sobre a oportunidade ou projeto..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              <span>Enviar mensagem</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© 2026 <strong>Eduardo Moreira Monteiro Lona</strong> · Feito com dedicação e em constante evolução.</p>
+      <div class="footer-links">
+        <a href="https://github.com/Dudulonabr" target="_blank" rel="noopener">GitHub</a>
+        <a href="assets/curriculo-eduardo-lona.pdf" target="_blank" rel="noopener">Currículo PDF</a>
+        <a href="#hero">Topo ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Soft skill modal -->
+  <div class="modal" id="soft-modal" aria-hidden="true">
+    <div class="modal-backdrop"></div>
+    <div class="modal-content">
+      <button class="modal-close" aria-label="Fechar">&times;</button>
+      <h3 id="modal-title"></h3>
+      <p id="modal-text"></p>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

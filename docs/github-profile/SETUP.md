@@ -70,3 +70,11 @@ A capa aparece quando o link do repositório é compartilhado; não funciona com
 Os nove repositórios públicos com conteúdo receberam READMEs, banners e arquivos de configuração para ignorar arquivos locais. A publicação do README no perfil, a bio, os projetos fixados, as descrições, os topics e as capas dependem das etapas acima.
 
 Os READMEs antigos identificam os exercícios conceituais e apontam para a apresentação atual. O histórico e o código dos projetos foram preservados.
+
+## Identidade visual aprimorada
+
+O README foi atualizado com banner exclusivo, monograma EL, digitação animada original, capas de quatro projetos, ícones de tecnologias e versão em inglês. Abra [a prévia da composição](assets/premium/preview.png) ou [a versão em inglês](README.en.md).
+
+O texto para copiar continua em [README-COPIAR.md](README-COPIAR.md). Todos os links das imagens são absolutos e já apontam para os recursos publicados neste repositório. Basta colar o texto no README do repositório público `Dudulonabr/Dudulonabr`.
+
+A prévia é uma composição visual. O GitHub determina os espaçamentos, a tipografia do texto e a apresentação de tabelas conforme a largura da tela e o tema escolhido.

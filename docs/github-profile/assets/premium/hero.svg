@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="440" viewBox="0 0 1280 440" role="img" aria-labelledby="title"><title id="title">Eduardo Lona — Software Engineering, Web and IT</title><defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#080D19"/><stop offset="1" stop-color="#131E34"/></linearGradient>
+<linearGradient id="glow"><stop stop-color="#72EEEC"/><stop offset=".55" stop-color="#92BDFF"/><stop offset="1" stop-color="#B7A3FF"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#796FD8" stop-opacity=".25"/><stop offset="1" stop-color="#796FD8" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#93A6C5" stroke-opacity=".06"/></pattern>
+</defs>
+<rect width="1280" height="440" rx="24" fill="url(#bg)"/>
+<rect width="1280" height="440" rx="24" fill="url(#grid)"/>
+<circle cx="1042" cy="228" r="230" fill="url(#halo)"/>
+<g fill="none" stroke="#455B7A"><circle cx="1040" cy="228" r="144" stroke-opacity=".55"/><circle cx="1040" cy="228" r="177" stroke-opacity=".25"/><ellipse cx="1040" cy="228" rx="188" ry="68" transform="rotate(-32 1040 228)" stroke="#79D2E1" stroke-opacity=".3"/><path d="M854 131H908V90H1100M888 355H983V395H1194" stroke-opacity=".5"/></g>
+<circle cx="915" cy="153" r="7" fill="#74E8E7"/>
+<circle cx="1158" cy="310" r="6" fill="#B7A3FF"/>
+<circle cx="1192" cy="115" r="3" fill="#8FAFFF"/>
+<rect x="64" y="37" width="238" height="37" rx="18.5" fill="#14252B" stroke="#2D5E5F"/>
+<circle cx="84" cy="55" r="4" fill="#73E4BB"/>
+<text x="98" y="61" font-family="DejaVu Sans Mono, monospace" font-size="13" font-weight="600" fill="#BAE8D8" >OPEN TO INTERNSHIPS</text><text x="64" y="126" font-family="DejaVu Sans Mono, monospace" font-size="17" font-weight="500" fill="#8FA9CB" letter-spacing="2">SOFTWARE ENGINEERING / WEB / IT</text><text x="60" y="226" font-family="DejaVu Sans, sans-serif" font-size="102" font-weight="700" fill="#F1F5FC" >Eduardo</text><text x="60" y="328" font-family="DejaVu Sans, sans-serif" font-size="102" font-weight="700" fill="url(#glow)" >Lona.</text><text x="64" y="379" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="400" fill="#B8C6DC" >From hardware to software.</text><text x="1040" y="268" font-family="DejaVu Sans, sans-serif" font-size="116" font-weight="700" fill="url(#glow)" text-anchor="middle">EL</text><text x="1040" y="419" font-family="DejaVu Sans Mono, monospace" font-size="13" font-weight="500" fill="#899BB8" text-anchor="middle" letter-spacing="2">LEARN. BUILD. EVOLVE.</text><text x="64" y="416" font-family="DejaVu Sans Mono, monospace" font-size="13" font-weight="400" fill="#8398B7" letter-spacing="1">SÃO PAULO, BRAZIL  /  @DUDULONABR</text></svg>

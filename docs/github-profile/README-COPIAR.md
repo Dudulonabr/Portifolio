@@ -1,8 +1,8 @@
-<p align="center"><img src="https://raw.githubusercontent.com/Dudulonabr/Portifolio/main/docs/github-profile/assets/premium/hero.png" alt="Eduardo Lona — Software Engineering, Web and IT" width="100%" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/Dudulonabr/Dudulonabr/main/assets/cyber/hero.gif" alt="Eduardo Lona — Software Engineering, Web and IT" width="100%" /></p>
 
-<p align="center"><a href="https://github.com/Dudulonabr">Português</a> · <a href="https://github.com/Dudulonabr/Portifolio/blob/main/docs/github-profile/README.en.md">English</a></p>
+<p align="center"><a href="https://github.com/Dudulonabr">Português</a> · <a href="https://github.com/Dudulonabr/Dudulonabr/blob/main/README.en.md">English</a></p>
 
-<p align="center"><a href="https://github.com/Dudulonabr/Portifolio"><img src="https://raw.githubusercontent.com/Dudulonabr/Portifolio/main/docs/github-profile/assets/premium/portfolio.svg" alt="Conhecer meu portfólio" width="202" /></a> <a href="https://www.linkedin.com/in/eduardo-moreira-monteiro-lona"><img src="https://raw.githubusercontent.com/Dudulonabr/Portifolio/main/docs/github-profile/assets/premium/linkedin.svg" alt="LinkedIn" width="136" /></a> <a href="mailto:dudulona07@gmail.com"><img src="https://raw.githubusercontent.com/Dudulonabr/Portifolio/main/docs/github-profile/assets/premium/email.svg" alt="Entrar em contato por e-mail" width="189" /></a> </p>
+<p align="center"><a href="https://github.com/Dudulonabr/Portifolio"><img src="https://raw.githubusercontent.com/Dudulonabr/Dudulonabr/main/assets/cyber/contact-portfolio.gif" alt="Conhecer meu portfólio" width="202" /></a> <a href="https://www.linkedin.com/in/eduardo-moreira-monteiro-lona"><img src="https://raw.githubusercontent.com/Dudulonabr/Dudulonabr/main/assets/cyber/contact-linkedin.gif" alt="LinkedIn" width="136" /></a> <a href="mailto:dudulona07@gmail.com"><img src="https://raw.githubusercontent.com/Dudulonabr/Dudulonabr/main/assets/cyber/contact-email.gif" alt="Entrar em contato por e-mail" width="189" /></a> </p>
 
 <p align="center"><img src="https://raw.githubusercontent.com/Dudulonabr/Portifolio/main/docs/github-profile/assets/premium/typing.gif" alt="Learning by building. From hardware to software." width="850" /></p>
 
@@ -18,18 +18,20 @@ Gosto de entender o problema, organizar a solução e construir algo que as pess
 
 <img src="https://raw.githubusercontent.com/Dudulonabr/Portifolio/main/docs/github-profile/assets/premium/overview.svg" alt="Duas graduações em andamento, uma formação técnica e quatro projetos em destaque" width="100%" />
 
+<img src="https://raw.githubusercontent.com/Dudulonabr/Dudulonabr/main/assets/cyber/divider.gif" alt="Trilhas luminosas animadas" width="100%" />
+
 ## Projetos selecionados
 
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/Dudulonabr/PIM-Microsoft"><img src="https://raw.githubusercontent.com/Dudulonabr/Portifolio/main/docs/github-profile/assets/premium/tickets.svg" alt="Gestão de Chamados de TI" width="100%" /></a>
+<a href="https://github.com/Dudulonabr/PIM-Microsoft"><img src="https://raw.githubusercontent.com/Dudulonabr/Dudulonabr/main/assets/cyber/tickets.gif" alt="Gestão de Chamados de TI" width="100%" /></a>
 <h3>Gestão de Chamados de TI</h3>
 <p>Registro de incidentes, priorização, prazos de SLA e indicadores no terminal. Persistência em JSON.</p>
 <a href="https://github.com/Dudulonabr/PIM-Microsoft">Explorar o projeto →</a>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/Dudulonabr/Futuro-das-Cidades"><img src="https://raw.githubusercontent.com/Dudulonabr/Portifolio/main/docs/github-profile/assets/premium/cities.svg" alt="Futuro das Cidades" width="100%" /></a>
+<a href="https://github.com/Dudulonabr/Futuro-das-Cidades"><img src="https://raw.githubusercontent.com/Dudulonabr/Dudulonabr/main/assets/cyber/cities.gif" alt="Futuro das Cidades" width="100%" /></a>
 <h3>Futuro das Cidades</h3>
 <p>Site educacional sobre tecnologia urbana e sustentabilidade, com gráficos e simulador de mobilidade elétrica.</p>
 <a href="https://github.com/Dudulonabr/Futuro-das-Cidades">Explorar o projeto →</a>
@@ -37,13 +39,13 @@ Gosto de entender o problema, organizar a solução e construir algo que as pess
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/Dudulonabr/Portifolio"><img src="https://raw.githubusercontent.com/Dudulonabr/Portifolio/main/docs/github-profile/assets/premium/portfolio-card.svg" alt="Portfólio Pessoal" width="100%" /></a>
+<a href="https://github.com/Dudulonabr/Portifolio"><img src="https://raw.githubusercontent.com/Dudulonabr/Dudulonabr/main/assets/cyber/portfolio.gif" alt="Portfólio Pessoal" width="100%" /></a>
 <h3>Portfólio Pessoal</h3>
 <p>Formação, experiência prática e projetos apresentados em uma interface responsiva, com navegação por seções.</p>
 <a href="https://github.com/Dudulonabr/Portifolio">Explorar o projeto →</a>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/Dudulonabr/Curriculo_Eduardo_Lona"><img src="https://raw.githubusercontent.com/Dudulonabr/Portifolio/main/docs/github-profile/assets/premium/resume.svg" alt="Currículo Web" width="100%" /></a>
+<a href="https://github.com/Dudulonabr/Curriculo_Eduardo_Lona"><img src="https://raw.githubusercontent.com/Dudulonabr/Dudulonabr/main/assets/cyber/resume.gif" alt="Currículo Web" width="100%" /></a>
 <h3>Currículo Web</h3>
 <p>Apresentação profissional interativa com formação, competências, projetos e certificados.</p>
 <a href="https://github.com/Dudulonabr/Curriculo_Eduardo_Lona">Explorar o projeto →</a>
@@ -55,7 +57,7 @@ Os projetos apresentados são pessoais ou acadêmicos. O **PIM Microsoft** é um
 
 ## Tecnologias em ação
 
-<img src="https://raw.githubusercontent.com/Dudulonabr/Portifolio/main/docs/github-profile/assets/premium/stack.svg" alt="Python, JavaScript, HTML e CSS nos projetos; Java e SQL em estudo" width="100%" />
+<img src="https://raw.githubusercontent.com/Dudulonabr/Dudulonabr/main/assets/cyber/stack.gif" alt="Python, JavaScript, HTML e CSS nos projetos; Java e SQL em estudo" width="100%" />
 
 | Área | Conhecimentos e aplicação |
 | --- | --- |
@@ -79,4 +81,4 @@ Busco oportunidades de **estágio e início de carreira** em desenvolvimento de 
 
 **Vamos conversar:** [LinkedIn](https://www.linkedin.com/in/eduardo-moreira-monteiro-lona) · [dudulona07@gmail.com](mailto:dudulona07@gmail.com)
 
-<img src="https://raw.githubusercontent.com/Dudulonabr/Portifolio/main/docs/github-profile/assets/premium/footer.svg" alt="Aprender. Construir. Evoluir. / Learn. Build. Evolve." width="100%" />
+<img src="https://raw.githubusercontent.com/Dudulonabr/Dudulonabr/main/assets/cyber/footer.gif" alt="Aprender. Construir. Evoluir. / Learn. Build. Evolve." width="100%" />

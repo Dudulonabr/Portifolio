@@ -17,3 +17,7 @@ Os banners ficam nos próprios repositórios, evitando dependência de serviços
 ## Repositórios de estudo
 
 Os projetos antigos possuem READMEs que explicam seu contexto acadêmico e apontam para o portfólio atual. Não é necessário apagar o histórico para apresentar os projetos principais.
+
+## Capas de compartilhamento
+
+A pasta `social-previews/` contém seis imagens PNG de 1280 × 640 pixels para os projetos principais. Elas estão prontas para uso no campo de imagem de compartilhamento de cada repositório. Ter os arquivos versionados não ativa automaticamente esse campo nas configurações do GitHub.

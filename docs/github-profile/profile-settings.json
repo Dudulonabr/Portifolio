@@ -1,0 +1,111 @@
+{
+  "name": "Eduardo Moreira Monteiro Lona",
+  "bio": "Estudante de Engenharia de Software e ADS | Python, Java e Web | Técnico em Informática · Hardware, redes e suporte de TI",
+  "location": "São Paulo, Brasil",
+  "profile_repository": "Dudulonabr/Dudulonabr",
+  "pinned": [
+    "PIM-Microsoft",
+    "Futuro-das-Cidades",
+    "Portifolio",
+    "Curriculo_Eduardo_Lona",
+    "Atividade-java",
+    "Caixa-eletronico"
+  ],
+  "repositories": {
+    "PIM-Microsoft": {
+      "description": "Sistema acadêmico de gestão de chamados de TI em Python: prioridade, SLA, persistência JSON e dashboard no terminal.",
+      "topics": [
+        "python",
+        "helpdesk",
+        "ticket-management",
+        "json",
+        "cli",
+        "academic-project"
+      ]
+    },
+    "Futuro-das-Cidades": {
+      "description": "Site educacional sobre cidades inteligentes e sustentabilidade, com gráficos e simulador de mobilidade elétrica.",
+      "topics": [
+        "html",
+        "css",
+        "javascript",
+        "smart-cities",
+        "sustainability",
+        "chartjs",
+        "academic-project"
+      ]
+    },
+    "Portifolio": {
+      "description": "Portfólio de Eduardo Lona: formação, experiência prática em TI e projetos de desenvolvimento web e software.",
+      "topics": [
+        "portfolio",
+        "html",
+        "css",
+        "javascript",
+        "responsive-design"
+      ]
+    },
+    "Curriculo_Eduardo_Lona": {
+      "description": "Currículo web interativo de Eduardo Lona, com formação, experiência, projetos, competências e certificados.",
+      "topics": [
+        "resume",
+        "cv",
+        "html",
+        "css",
+        "javascript",
+        "responsive-design"
+      ]
+    },
+    "Atividade-java": {
+      "description": "Dez exercícios de lógica de programação em JavaScript, com HTML e CSS para execução no navegador.",
+      "topics": [
+        "javascript",
+        "html",
+        "css",
+        "programming-exercises",
+        "learning"
+      ]
+    },
+    "Caixa-eletronico": {
+      "description": "Calculadora didática de cédulas em JavaScript para praticar decomposição de valores, laços e operações matemáticas.",
+      "topics": [
+        "javascript",
+        "html",
+        "css",
+        "algorithms",
+        "learning"
+      ]
+    },
+    "Aula_1": {
+      "description": "Primeiros estudos de HTML, CSS e JavaScript: navegação, estilização e experimentos de apresentação pessoal.",
+      "topics": [
+        "html",
+        "css",
+        "javascript",
+        "learning",
+        "academic-project"
+      ]
+    },
+    "Portif-lio-do-Futuro": {
+      "description": "Protótipo acadêmico de portfólio com trajetória fictícia no futuro, desenvolvido em HTML, CSS e JavaScript.",
+      "topics": [
+        "html",
+        "css",
+        "javascript",
+        "prototype",
+        "academic-project"
+      ]
+    },
+    "Portif-lio-do-Futuro-com-Forms": {
+      "description": "Protótipo acadêmico de portfólio fictício com formulário de contato integrado ao FormSubmit.",
+      "topics": [
+        "html",
+        "css",
+        "javascript",
+        "forms",
+        "prototype",
+        "academic-project"
+      ]
+    }
+  }
+}
